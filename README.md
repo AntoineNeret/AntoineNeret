@@ -1,3 +1,4 @@
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
 <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=gotham" alt="Jokes Card" />
 - 👋 Hi, I’m @AntoineNeret
 - 👀 I’m interested in ...
