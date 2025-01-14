@@ -1,3 +1,24 @@
+<!--START_SECTION:waka-->
+
+name: Waka Readme
+
+on:
+  schedule:
+    # Runs at 12am IST
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+jobs:
+  update-readme:
+    name: Update Readme with Metrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{waka_75594fe8-a2ab-423b-80e8-b603f7abb56b}}
+          GH_TOKEN: ${{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}}
+
+<!--END_SECTION:waka-->
+
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
 <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=gotham" alt="Jokes Card" />
 - 👋 Hi, I’m @AntoineNeret
