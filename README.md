@@ -1,7 +1,7 @@
 # 👋 Hi, I’m @AntoineNeret
 
+<p align="center">
+  [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+</p>
 
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
-
-<img src="metrics.svg"  alt="Metric"/>
+<img src="metrics.svg" align="center" alt="Metric"/>
