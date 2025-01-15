@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
           filename: metrics.svg
-          user: tduyng
+          user: AntoineNeret
           committer_message: "chore: update ${filename}"
           config_timezone: Europe/Paris
           template: classic
