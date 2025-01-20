@@ -17,6 +17,9 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN }}
+          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          # plugin_steam: yes
+          # plugin_steam_user: "0"
           filename: metrics.svg
           user: AntoineNeret
           committer_message: "chore: update ${filename}"
