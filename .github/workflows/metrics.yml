@@ -33,6 +33,10 @@ jobs:
           # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           # plugin_steam: yes
           # plugin_steam_user: "0"
+          # plugin_steam_achievements_limit: 3000
+          # plugin_steam_recent_games_limit: 6
+          # plugin_steam_games_limit: 6
+          # plugin_steam_playtime_threshold: 6
           plugin_anilist: yes
           plugin_anilist_user: AcerateKarma487
           plugin_anilist_sections: favorites, reading, watching
