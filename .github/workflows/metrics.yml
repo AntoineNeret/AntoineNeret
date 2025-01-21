@@ -17,9 +17,6 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GH_TOKEN }}
-          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          # plugin_steam: yes
-          # plugin_steam_user: "0"
           filename: metrics.svg
           user: AntoineNeret
           committer_message: "chore: update ${filename}"
@@ -33,6 +30,9 @@ jobs:
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot, vba, tsql, scss, gherkin, vim, vim script, handlebars, XSLT
+          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          # plugin_steam: yes
+          # plugin_steam_user: "0"
           plugin_anilist: yes
           plugin_anilist_user: AcerateKarma487
           plugin_anilist_sections: favorites, reading, watching
