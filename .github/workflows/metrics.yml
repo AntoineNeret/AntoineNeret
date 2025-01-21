@@ -33,6 +33,9 @@ jobs:
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot, vba, tsql, scss, gherkin, vim, vim script, handlebars, XSLT
+          plugin_anilist: yes
+          plugin_anilist_user: AcerateKarma487
+          plugin_anilist_sections: favorites, reading, watching
           # extras_js: |
           #   document.querySelector(".field.calendar")?.remove()
           #   document.querySelector(".field.diskUsage")?.remove()
