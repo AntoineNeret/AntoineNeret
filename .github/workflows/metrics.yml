@@ -30,8 +30,8 @@ jobs:
           plugin_languages_ignored: >-
             tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot, vba, tsql, scss, gherkin, vim, vim script, handlebars, XSLT
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam_user: "76561198268965953"
           plugin_steam_achievements_limit: 3000
           plugin_steam_recent_games_limit: 6
