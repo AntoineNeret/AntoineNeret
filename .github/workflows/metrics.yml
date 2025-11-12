@@ -16,12 +16,15 @@ jobs:
       - name: Update metrics
         uses: lowlighter/metrics@latest
         with:
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           token: ${{ secrets.GH_TOKEN }}
           filename: metrics.svg
           user: AntoineNeret
           committer_message: "Mise à jour automatique de ${filename}"
           config_timezone: Europe/Paris
-          template: repository
+          template: classic
+          plugin_habits_facts: yes
           base: header, activity, community, repositories, metadata
           config_order: base.header, base.repositories, base.activity+community, isocalendar, music
           output_condition: skip-if-only-metadata-changed
