@@ -24,7 +24,9 @@ jobs:
           committer_message: "Mise à jour automatique de ${filename}"
           config_timezone: Europe/Paris
           template: classic
+          plugin_habits: no
           plugin_habits_facts: yes
+          plugin_habits_charts: no
           base: header, activity, community, repositories, metadata
           config_order: base.header, base.repositories, base.activity+community, isocalendar, music
           output_condition: skip-if-only-metadata-changed
@@ -33,13 +35,13 @@ jobs:
           plugin_languages_ignored: >-
             tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot, vba, tsql, scss, gherkin, vim, vim script, handlebars, XSLT
-          plugin_steam: yes
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_user: "76561198268965953"
-          plugin_steam_playtime_threshold: 4
-          plugin_anilist: yes
-          plugin_anilist_user: AcerateKarma487
-          plugin_anilist_sections: favorites
+          # plugin_steam: yes
+          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          # plugin_steam_user: "76561198268965953"
+          # plugin_steam_playtime_threshold: 4
+          # plugin_anilist: yes
+          # plugin_anilist_user: AcerateKarma487
+          # plugin_anilist_sections: favorites
           # extras_js: |
           #   document.querySelector(".field.calendar")?.remove()
           #   document.querySelector(".field.diskUsage")?.remove()
